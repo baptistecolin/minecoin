@@ -47,7 +47,7 @@ Repeat passphrase:
 ```
 
 La chaine de caracteres qui est imprimee, ici `0x6c503786685f23abae76976fe0aa843f75ea9e71` ,est votre cle publique, elle sert "d'adresse" vers laquelle les gens vous enverront de l'argent.
-Memorisez le a tout prix : c'est lui qui chiffre votre cle privee. La cle privee chifree peut etre trouvee sur votre PC a l'adresse `~/.ethereum/minecoin/keystore`. 
+Memorisez le mot de passe a tout prix : c'est lui qui chiffre votre cle privee. La cle privee chifree peut etre trouvee sur votre PC a l'adresse `~/.ethereum/minecoin/keystore`. 
 
 ```
 $ ls ~/.ethereum/minecoin/keystore
