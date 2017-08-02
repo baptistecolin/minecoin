@@ -53,7 +53,7 @@ Memorisez le mot de passe a tout prix : c'est lui qui chiffre votre cle privee. 
 $ ls ~/.ethereum/minecoin/keystore
 UTC--2016-05-23T16-27-26.470952057Z--6c503786685f23abae76976fe0aa843f75ea9e71
 
-$ cat ~/.ethereum/net42/keystore/UTC--2016-05-23T16-27-26.470952057Z--6c503786685f23abae76976fe0aa843f75ea9e71 
+$ cat ~/.ethereum/minecoin/keystore/UTC--2016-05-23T16-27-26.470952057Z--6c503786685f23abae76976fe0aa843f75ea9e71 
 {"address":"6c503786685f23abae76976fe0aa843f75ea9e71","crypto":{"cipher":"aes-128-ctr","ciphertext":"bbdb1bd1ae530a7f83636b536f79f723fff5054496a6a29d2c4430ae3bb15c78","cipherparams":{"iv":"060243b8cdf55bedacb23123aa6a2d7d"},"kdf":"scrypt","kdfparams":{"dklen":32,"n":262144,"p":1,"r":8,"salt":"c0eb4ed480d3b21a8fc4da2a1e0b8fcfc04959b564289eeae86aac7edb88b34d"},"mac":"1159477b4f34ee5cc72359c33d178af85e4436f3a46045d44dc0536a5962f5de"},"id":"5346df68-f762-48d0-8421-ea5c0875b8a0","version":3}
 ```
 
