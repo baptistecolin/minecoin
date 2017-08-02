@@ -15,3 +15,13 @@ Plusieurs raisons :
    3. C'est un bon moyen de familiariser les gens avec les technologies sous-jacentes aux cryptomonnaies et aux applications decentralisees, parce que ce genre de truc est sincerement difficile a comprendre.
    4. Quand les infrastructures techniques seront pretes, un autre probleme arrivera, totalement different : maintenir un contexte socio-economique propice pour que le MineCoin ne crashe pas et ne tombe pas dans l'oubli. Il ne s'agit des lors plus de trucs de geeks, mais d'enjeux de politique "macro"-economiques, d'incitation sociale, et de comprehension reelle de *ce qu'est une monnaie, pourquoi elle a de la valeur, et comment/pourquoi cette valeur varie.* Chez nous, c'est ce qu'on appelle de la _competence transverse_.
 
+
+### Ou commencer
+
+Installation :
+  * [Installer Geth et se creer un couple de cles](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
+
+
+Documentation :
+
+WIP
