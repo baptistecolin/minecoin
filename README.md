@@ -27,6 +27,16 @@ Documentation :
   * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
   * [Commandes basiques sur Geth](https://github.com/baptistecolin/minecoin/blob/master/docs/geth_intro.md)
 
+### Prérequis
+
+Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Déso les Windows. Il est prferrable de savoir naviguer un minimum dans le Terminal.
+
+Il faut comprendre un minimum le principe d'une blockchain et d'Ethereum pour comprendre les opérations "bas niveau" qu'on détaille ici. Un très bon cours en ligne gratuit peut être trouvé ici :
+
+#### [Cours Ethereum 101 de B9lab](https://academy.b9lab.com/courses/B9lab/X16-0/2016/about)
+
+**Disclaimer :** C'est normal de ne pas comprendre du premier coup. Vraiment.
+
 ## HELP
 
 Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)
