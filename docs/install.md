@@ -27,37 +27,3 @@ Pour vous y connecter et avoir accés a la console Geth, ajoutez `console` à la
 
 Ces commandes un peu complexes sont sauvegardées dans le dossier [`scripts/`](https://github.com/baptistecolin/minecoin/tree/master/scripts) du Github. Pour vous connecter, il suffira donc de taper `$ ./launch_sync.sh` 
 
-### Création d'un compte
-
-Connectez vous a la console :
-
-`$ geth --datadir ~/.ethereum/minecoin --networkid 1783 console` ou `./launch_console.sh`
-
-Pour se créer un compte, il faut taper :
-
-`> personal.newAccount()`
-
-Un mot de passe vous est demandé, tapez le 2 fois.
-
-```
-> personal.newAccount()
-Passphrase: 
-Repeat passphrase: 
-"0x6c503786685f23abae76976fe0aa843f75ea9e71"
-```
-
-La chaine de caractères qui est imprimée, ici `0x6c503786685f23abae76976fe0aa843f75ea9e71`, est votre clé publique, elle sert "d'adresse" vers laquelle les gens vous enverront de l'argent.
-Mémorisez le mot de passe à tout prix : c'est lui qui chiffre votre clé privée. La clé privée chifrée peut être trouvee sur votre PC a l'adresse `~/.ethereum/minecoin/keystore`. 
-
-```
-$ ls ~/.ethereum/minecoin/keystore
-UTC--2016-05-23T16-27-26.470952057Z--6c503786685f23abae76976fe0aa843f75ea9e71
-
-$ cat ~/.ethereum/minecoin/keystore/UTC--2016-05-23T16-27-26.470952057Z--6c503786685f23abae76976fe0aa843f75ea9e71 
-{"address":"6c503786685f23abae76976fe0aa843f75ea9e71","crypto":{"cipher":"aes-128-ctr","ciphertext":"bbdb1bd1ae530a7f83636b536f79f723fff5054496a6a29d2c4430ae3bb15c78","cipherparams":{"iv":"060243b8cdf55bedacb23123aa6a2d7d"},"kdf":"scrypt","kdfparams":{"dklen":32,"n":262144,"p":1,"r":8,"salt":"c0eb4ed480d3b21a8fc4da2a1e0b8fcfc04959b564289eeae86aac7edb88b34d"},"mac":"1159477b4f34ee5cc72359c33d178af85e4436f3a46045d44dc0536a5962f5de"},"id":"5346df68-f762-48d0-8421-ea5c0875b8a0","version":3}
-```
-
-Le fichier contenant votre clé privée est nommé `<date de creation>--<cle publique>`
-
-
-
