@@ -41,3 +41,6 @@ $ cat ~/.ethereum/minecoin/keystore/UTC--2016-05-23T16-27-26.470952057Z--6c50378
 
 Le fichier contenant votre clé privée est nommé `<date de creation>--<cle publique>`
 
+## HELP
+
+Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@outlook.com`](baptiste.colin@outlook.com)

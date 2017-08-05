@@ -27,3 +27,6 @@ Pour vous y connecter et avoir accés a la console Geth, ajoutez `console` à la
 
 Ces commandes un peu complexes sont sauvegardées dans le dossier [`scripts/`](https://github.com/baptistecolin/minecoin/tree/master/scripts) du Github. Pour vous connecter, il suffira donc de taper `$ ./launch_sync.sh` 
 
+## HELP
+
+Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)

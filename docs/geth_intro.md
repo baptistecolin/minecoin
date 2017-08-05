@@ -126,3 +126,6 @@ Il faut bien comprendre que les blocs ne viennent pas de nulle part : un bloc co
 
 Cela signifie que si aucune transaction n'est effectuée sur le réseau MineCoin, votre node ne trouvera jamais rien à miner. A l'inverse, une transaction ne sera jamais validée si personne n'est en train de miner.
 
+## HELP
+
+Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@outlook.com`](mailto:baptiste.colin@outlook.com)
