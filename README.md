@@ -19,8 +19,8 @@ Plusieurs raisons :
 ### Où commencer
 
 Installation :
-  * [Installer Geth et se créer un couple de cles](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
-
+  * [Installer Geth](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
+  * [Se créer un compte Minecoin](https://github.com/baptistecolin/minecoin/blob/master/docs/account_creation.md)
 
 Documentation :
 
