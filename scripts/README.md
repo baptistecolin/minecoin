@@ -9,3 +9,7 @@ NB : ces scripts sont loin d'être exhaustifs, Geth permet de faire beaucoup de 
   * `launch_sync.sh` : lance Geth avec les paramètres nécessaires pour se connecter à la blockchain Minecoin. Geth ne fera que se synchroniser avec les autres peers.
   * `launch_console.sh` : lance Geth avec les paramètres nécessaires pour se connecter à la blockchain Minecoin. La console Javascript de Geth sera ouverte et la synchronisation se fera automatiquement.
   * `launch_mining.sh` : lance Geth avec les paramètres nécessaires pour se connecter à la blockchain Minecoin. En plus de la synchronisation, votre peer s'emploiera à miner.
+
+# HELP
+
+Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)
