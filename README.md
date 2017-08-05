@@ -24,4 +24,4 @@ Installation :
 
 Documentation :
 
-WIP
+  * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
