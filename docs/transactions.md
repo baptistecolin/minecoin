@@ -120,3 +120,37 @@ null
 ```
 
 Patientons le temps que la transaction soit validée. Peut-être que personne n'est en train de miner du MineCoin, dans le doute, mettez vous aussi à miner pour participer à la validation de votre propre transaction : `miner.start(1)`
+
+La ligne suivant nous signale qu'un nouveau bloc a été miné par quelqu'un et que notre peer vient de le télécharger :
+
+```javascript
+INFO [08-06|19:22:11] Imported new chain segment               blocks=1 txs=2 mgas=0.042 elapsed=60.156ms  mgasps=0.698 number=4 hash=d032de…eb621a
+```
+
+On peut constater que la transaction a été validée avec ce bloc :
+
+```javascript
+> eth.getBalance(eth.coinbase)
+7905872000000000000
+> eth.getTransactionReceipt(transac_hash)
+{
+    blockHash: "0xd032de02d585a7450733a8a6fc91a2688c72a275d2c306692b69dd182eeb621a",
+    blockNumber: 4,
+    contractAddress: null,
+    cumulativeGasUsed: 21000,
+    from: "0x04e8bb418ecd4229cdbfa87774dbfaa4e6f51c76",
+    gasUsed: 21000,
+    logs: [],
+    logsBloom: "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    root: "0x5dac16b65b72b8f6a0b4aba08d65363043e40f507c3aad7939fd301865a05efb",
+    to: "0x8bf532a400d5ba317ec5bc5b082226d418fc5910",
+    transactionHash: "0x4d31ba64c02ecfeeb26efd0201c64b38ace04472beafac6e2828cd36528869f8",
+    transactionIndex: 0
+}
+```
+
+Le compte de l'expéditeur a bien été débité, et `eth.getTransactionReceipt(sender)` ne renvoie plus `null` mais un bilan de la transaction.
+
+## HELP
+
+Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)
