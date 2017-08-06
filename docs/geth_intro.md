@@ -124,7 +124,30 @@ Le minage débute. Il faut patienter.
 
 Il faut bien comprendre que les blocs ne viennent pas de nulle part : un bloc contient une liste de transactions en attentes. Le processus de minage est ce qui permet de valider les transactions en attentes, et de transmettre l'information. En contrepartie de leur travail de validation, les mineurs sont récompensés avec quelques MineCoin.
 
-Cela signifie que si aucune transaction n'est effectuée sur le réseau MineCoin, votre node ne trouvera jamais rien à miner. A l'inverse, une transaction ne sera jamais validée si personne n'est en train de miner.
+Le réseau s'ajuste pour que, à long terme, un nouveau bloc soit issu toutes les 15 minutes. Il est possible qu'un bloc ne contienne aucune transaction à miner, si aucune transaction n'a été effectuée depuis le minage du dernier bloc. En revanche, une transaction ne sera jamais validée si personne n'est là pour la miner.
+
+Au bout d'un certain temps, peut être que vous minerez un bloc :
+
+```bash
+> miner.start(1)
+INFO [08-06|15:22:37] Updated mining threads                   threads=1
+INFO [08-06|15:22:37] Transaction pool price threshold updated price=18000000000
+INFO [08-06|15:22:37] Starting mining operation 
+INFO [08-06|15:22:37] Commit new mining work                   number=1 txs=0 uncles=0 elapsed=213.588µs
+INFO [08-06|16:01:11] Successfully sealed new block            number=1 hash=c60628…5153f6
+INFO [08-06|16:01:11] 🔨 mined potential block                  number=1 hash=c60628…5153f6
+```
+
+On voit que cela a pris environ 40 minutes entre le début du minage et le minage du 1er bloc.
+
+Quand un node réussit à miner un bloc, il est récompensé avec 5 MNC :
+
+```bash
+> eth.getBalance(eth.coinbase)
+5000000000000000000
+```
+
+La fonction renvoie 5 x 10^18 car le résultat est exprimé en Wei, une sous unité du MineCoin. 1 MNC == 10^18 Wei.
 
 ## HELP
 
