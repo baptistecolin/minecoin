@@ -17,15 +17,19 @@ $ sudo apt-get update
 $ sudo apt-get install -y ethereum
 ```
 
-Geth est alors installé. Vous pouvez l'éxecuter en tapant `geth`, cependant, il se connectera par défaut au _main network_, c'est a dire au réseau Ethereum classique. Le MineCoin est mis en place sur un réseau parallèle (_private network_), c'est pourquoi il faut mentionner des arguments supplémentaires :
+Geth est alors installé. Vous pouvez l'exécuter en tapant `geth`, cependant, il se connectera par défaut au _main network_, c'est a dire au réseau Ethereum classique. Le MineCoin est mis en place sur un réseau parallèle (_private network_), c'est pourquoi il faut mentionner des arguments supplémentaires :
 
-`geth --datadir ~/.ethereum/minecoin --networkid 19031783`. 
+```bash
+$ geth --datadir ~/.ethereum/minecoin --networkid 19031783
+```
 
 Pour vous y connecter et avoir accés a la console Geth, ajoutez `console` à la fin de la ligne de commande.
 
-`geth --datadir ~/.ethereum/minecoin --networkid 19031783 console`
+```bash
+$ geth --datadir ~/.ethereum/minecoin --networkid 19031783 console
+```
 
-Ces commandes un peu complexes sont sauvegardées dans le dossier [`scripts/`](https://github.com/baptistecolin/minecoin/tree/master/scripts) du Github. Pour vous connecter, il suffira donc de taper `$ ./launch_sync.sh` 
+Ces commandes un peu complexes sont sauvegardées dans le dossier [`scripts/`](https://github.com/baptistecolin/minecoin/tree/master/scripts) du Github. Pour vous connecter, il suffira donc de taper `./launch_sync.sh` 
 
 # Création d'un compte
 
