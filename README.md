@@ -20,7 +20,7 @@ Plusieurs raisons :
 
 Installation :
   * [Installation manuelle](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
-  * [Installation automatisée](https://github.com/baptistecolin/minecoin/blob/master/docs/auto_install.sh)
+  * [Installation automatisée](https://github.com/baptistecolin/minecoin/blob/master/docs/auto_install.md)
 
 Documentation :
 
