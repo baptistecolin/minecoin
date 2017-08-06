@@ -19,8 +19,8 @@ Plusieurs raisons :
 ### Où commencer
 
 Installation :
-  * [Installer Geth](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
-  * [Se créer un compte Minecoin](https://github.com/baptistecolin/minecoin/blob/master/docs/account_creation.md)
+  * [Installation manuelle](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
+  * [Installation automatisée](https://github.com/baptistecolin/minecoin/blob/master/docs/auto_install.sh)
 
 Documentation :
 
@@ -29,7 +29,7 @@ Documentation :
 
 ### Prérequis
 
-Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Déso les Windows. Il est prferrable de savoir naviguer un minimum dans le Terminal.
+Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Déso les Windows. Il est préferrable de savoir naviguer un minimum dans le Terminal.
 
 Il faut comprendre un minimum le principe d'une blockchain et d'Ethereum pour comprendre les opérations "bas niveau" qu'on détaille ici. Un très bon cours en ligne gratuit peut être trouvé ici :
 
