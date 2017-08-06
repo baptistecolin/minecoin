@@ -24,8 +24,9 @@ Installation :
 
 Documentation :
 
-  * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
   * [Commandes basiques sur Geth](https://github.com/baptistecolin/minecoin/blob/master/docs/geth_intro.md)
+  * [Effectuer des transactions](https://github.com/baptistecolin/minecoin/blob/master/docs/transactions.md)
+  * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
 
 ### Prérequis
 

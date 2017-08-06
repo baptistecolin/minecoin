@@ -5,6 +5,7 @@ Sont-ici répertoriés tous les documents utiles pour utiliser le MineCoin et/ou
   * [Installation manuelle](https://github.com/baptistecolin/minecoin/blob/master/docs/install.md)
   * [Installation automatisée](https://github.com/baptistecolin/minecoin/blob/master/docs/auto_install.md)
   * [Commandes basiques sur Geth](https://github.com/baptistecolin/minecoin/blob/master/docs/geth_intro.md)
+  * [Effectuer des transactions](https://github.com/baptistecolin/minecoin/blob/master/docs/transactions.md)
 
 ## HELP
 
