@@ -25,6 +25,7 @@ Installation :
 Documentation :
 
   * [Commandes basiques sur Geth](https://github.com/baptistecolin/minecoin/blob/master/docs/geth_intro.md)
+  * [Comment et pourquoi miner des MineCoin](https://github.com/baptistecolin/minecoin/blob/master/docs/mining.md)
   * [Effectuer des transactions](https://github.com/baptistecolin/minecoin/blob/master/docs/transactions.md)
   * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
 
