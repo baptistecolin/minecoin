@@ -42,7 +42,7 @@ Nous allons voir ici comment créer un couple de clés.
 
 Connectez vous a la console Geth :
 
-`$ geth --datadir ~/.ethereum/minecoin --networkid 1783 console` ou `./launch_console.sh`
+`$ geth --datadir ~/.ethereum/minecoin --networkid 19031783 console` ou `./launch_console.sh`
 
 Pour se créer un compte, il faut taper :
 
