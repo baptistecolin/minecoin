@@ -29,6 +29,10 @@ Documentation :
   * [Effectuer des transactions](https://github.com/baptistecolin/minecoin/blob/master/docs/transactions.md)
   * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
 
+Un Slack a été mis en place pour échanger sur le sujet : [minecoin.slack.com](http://www.minecoin.slack.com).
+
+N'importe qui peut le rejoindre en utilisant son adresse `@mines-paristech.fr` à l'inscription (sinon, l'inscription est refusée). Si vous n'avez pas d'adresse `@mines-paristech`, envoyez moi un mail et je vous envoie un lien d'invit (12chacha je pense à toi)
+
 ### Prérequis
 
 Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Déso les Windows. Il est préferrable de savoir naviguer un minimum dans le Terminal.

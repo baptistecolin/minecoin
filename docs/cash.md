@@ -11,6 +11,14 @@ L'avantage d'avoir un "Mines ParisTech Currency Exchange" serait de :
 
 Mais pour l'instant il faudra se démerder.
 
-NB : un prix d'échange n'est qu'une statistique, rien ne vous interdit de faire des échanges au dessus ou en dessous. Tout dépend de votre désir d'acheter/vendre des MineCoin. La valeur est une construction sociale, le taux de change n'est qu'une mesure physique de ce phénomène sociale.
+Il y a un channel `#currency_exchange` sur le [Slack](http://www.minecoin.slack.com), dédié à la mise en relation d'acheteurs et de vendeurs.
+
+## Disclaimer
+
+C'est à vous d'assumer vos responsabilités si vous vous faites pigeonner vos euros/vos MNC dans un échange ! On a aucun pouvoir pour inverser la transaction, d'un point de vue technique c'est mathématiquement impossible d'annuler une transaction sur une blockchain. Tout ce que vous pouvez faire, c'est pourrir la réputation de votre arnaqueur.
+
+## Considérations métaphysiques
+
+Un prix d'échange n'est qu'une statistique, rien ne vous interdit de faire des échanges au dessus ou en dessous. Tout dépend de votre désir d'acheter/vendre des MineCoin. La valeur est une construction sociale, le taux de change n'est qu'une mesure physique de ce phénomène sociale.
 
 Un peu de philosophie sur le sujet : [Conférence de Fédéric Lordon sur la valeur économique](https://www.youtube.com/watch?v=kX6cCKStbF0)
