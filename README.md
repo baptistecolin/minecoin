@@ -10,7 +10,7 @@ Le MineCoin (MNC) est une cryptomonnaie destinée a être utilisée a l'intérie
 
 Plusieurs raisons :
 
-   1. Bah, pourquoi pas ?
+   1. C'est golri
    2. Développer ce projet est un bon moyen d'apprendre en pratiquant pour tous les étudiants impliqués.
    3. C'est un bon moyen de familiariser les gens avec les technologies sous-jacentes aux cryptomonnaies et aux applications décentralisees, parce que ce genre de truc est sincèrement difficile a comprendre.
    4. Quand les infrastructures techniques seront prêtes, un autre probleme arrivera, totalement différent : maintenir un contexte socio-economique propice pour que le cours du MineCoin ne crashe pas, et qu'il ne tombe pas dans l'oubli. Il ne s'agit dès lors plus de trucs de geeks, mais d'enjeux de politique "macro"-économiques, d'incitation sociale, et de compréhension réelle de *ce qu'est une monnaie, pourquoi elle a de la valeur, et comment/pourquoi cette valeur varie.* Chez nous, c'est ce qu'on appelle de la _compètence transverse_.
