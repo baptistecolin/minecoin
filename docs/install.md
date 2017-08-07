@@ -8,7 +8,14 @@ Geth est un client qui permet de se connecter a une blockchain Ethereum, se char
 
 ### Installation sur UNIX 
 
-Dans votre terminal, executez :
+Ouvrez votre terminal, (`Ctrl + Alt + T` sur Ubuntu). Commencez par télécharger ce dépôt en rentrant les commandes suivantes :
+
+```bash
+$ sudo apt-get install git # si Git n'est pas déjà installé sur votre PC
+$ git clone https://github.com/baptistecolin/minecoin.git
+```
+
+Une fois téléchargé, on installe Geth en exécutant :
 
 ```bash
 $ sudo apt-get install -y software-properties-common
