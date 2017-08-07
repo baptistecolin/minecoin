@@ -36,7 +36,15 @@ Pour vous y connecter et avoir accés a la console Geth, ajoutez `console` à la
 $ geth --datadir ~/.ethereum/minecoin --networkid 19031783 console
 ```
 
-Ces commandes un peu complexes sont sauvegardées dans le dossier [`scripts/`](https://github.com/baptistecolin/minecoin/tree/master/scripts) du Github. Pour vous connecter, il suffira donc de taper `./launch_sync.sh` 
+On va rajouter le flag `--bootnodes` suivi de l'adresse du node du Rezal, afin de s'y connecter en priorité. Cela nous permettra de récupérer les données de la blockchain en se synchronisant avec le serveur du Rezal qui, normalement, devrait être à jour.
+
+Si on ne le précise pas, Geth va rechercher des nodes auprès de qui se synchroniser. Le MineCoin n'est pas encore une cryptomonnaie ultra-célèbre, il y a peu de nodes, donc ça peut prendre beaucoup de temps pour trouver quelqu'un. On gagne du temps en lui indiquant un node de référence.
+
+```bash
+$ geth --datadir ~/.ethereum/minecoin --networkid 1901783 --bootnodes enode://354e4bc1c3e38be4cdd9a9f19d36fbafee94f880970e46f3e796cfbea952c7ed14828380f76004271e527c42c477fd212464630f30cdcbb63655e8c41b7ed2d6@80.12.85.103:30301 console
+```
+
+Les commandes deviennent carrément complexes si on veut faire les choses rigoureusement. Pour ne pas avoir à les mémoriser ou les copier/coller, elles sont sauvegardées dans le dossier [`scripts/`](https://github.com/baptistecolin/minecoin/tree/master/scripts) du Github. Pour lancer Geth, il suffira donc de taper `./launch_sync.sh`, ou bien `./launch_console.sh` pour lancer Geth avec la console, etc.
 
 # Création d'un compte
 

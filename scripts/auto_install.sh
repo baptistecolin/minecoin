@@ -25,7 +25,7 @@ geth --datadir ~/.ethereum/minecoin init ../data/minecoin_genesis.json
 # --rpcapi [values] mentions which commands are allowed to be fired through RPC. Here, only "personal.____" commands are allowed.
 # --rpccorsdomain [values] brings restriction concerning who is allowed to launch commands through RPC. Here, we don't want another computer to access our Geth, only 127.0.0.1 (localhost) is authorized.
 # & is added so that this command runs in the background without blocking the rest of the script
-geth --datadir ~/.ethereum/minecoin --networkid 19031783 --rpc --rpcapi "personal" --rpccorsdomain 127.0.0.1 &
+geth --datadir ~/.ethereum/minecoin --networkid 19031783 --bootnodes enode://354e4bc1c3e38be4cdd9a9f19d36fbafee94f880970e46f3e796cfbea952c7ed14828380f76004271e527c42c477fd212464630f30cdcbb63655e8c41b7ed2d6@80.12.85.103:30301 --rpc --rpcapi "personal" --rpccorsdomain 127.0.0.1 &
 
 # wait 10 seconds for Geth to properly start
 sleep 10
