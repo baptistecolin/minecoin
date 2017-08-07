@@ -4,7 +4,7 @@ Une crypto-monnaie pour l'École des Mines de Paris
 
 ### Qu'est-ce que c'est
 
-Le MineCoin est une cryptomonnaie destinée a être utilisée a l'intérieur de l'École des Mines de Paris et de sa communauté. Elle utilise les mêmes fondations qu'Ethereum. Ce dépot héberge des documentations utiles et divers outils faits pour rendre l'usage du MineCoin plus agréable a des gens qui ne sont pas familiers avec les lignes de commandes sur un terminal, ou les trucs de nerd du genre.
+Le MineCoin (MNC) est une cryptomonnaie destinée a être utilisée a l'intérieur de l'École des Mines de Paris et de sa communauté. Elle utilise les mêmes fondations qu'Ethereum. Ce dépot héberge des documentations utiles et divers outils faits pour rendre l'usage du MineCoin plus agréable a des gens qui ne sont pas familiers avec les lignes de commandes sur un terminal, ou les trucs de nerd du genre.
 
 ### Pourquoi ?
 
@@ -28,6 +28,7 @@ Documentation :
   * [Comment et pourquoi miner des MineCoin](https://github.com/baptistecolin/minecoin/blob/master/docs/mining.md)
   * [Effectuer des transactions](https://github.com/baptistecolin/minecoin/blob/master/docs/transactions.md)
   * [Liste des scripts et de leur fonction](https://github.com/baptistecolin/minecoin/tree/master/scripts)
+  * [GET RICH QUICKLY WITH ONE SIMPLE TRICK- Comment faire des échanges entre MNC et vrai argent - BANKERS HATE HIM](https://github.com/baptistecolin/minecoin/blob/master/docs/cash.md)
 
 Un Slack a été mis en place pour échanger sur le sujet : [minecoin.slack.com](http://www.minecoin.slack.com).
 
