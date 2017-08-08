@@ -36,7 +36,7 @@ N'importe qui peut le rejoindre en utilisant son adresse `@mines-paristech.fr` �
 
 ### Prérequis
 
-Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Déso les Windows. Il est préferrable de savoir naviguer un minimum dans le Terminal.
+Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Depuis Windows 10, il y a la possibilité d'avoir un terminal bash ([TUTO](https://korben.info/installer-shell-bash-linux-windows-10.html)), ce qui devrait faire l'affaire. Pour les Windows 8 et antérieurs, ben déso, installez Linux. Il est préferrable de savoir naviguer un minimum dans le Terminal.
 
 Il faut comprendre un minimum le principe d'une blockchain et d'Ethereum pour comprendre les opérations "bas niveau" qu'on détaille ici. Un très bon cours en ligne gratuit peut être trouvé ici :
 
