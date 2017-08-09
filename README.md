@@ -32,11 +32,15 @@ Documentation :
 
 Un Slack a été mis en place pour échanger sur le sujet : [minecoin.slack.com](http://www.minecoin.slack.com).
 
-N'importe qui peut le rejoindre en utilisant son adresse `@mines-paristech.fr` à l'inscription (sinon, l'inscription est refusée). Si vous n'avez pas d'adresse `@mines-paristech`, envoyez moi un mail et je vous envoie un lien d'invit (12chacha je pense à toi)
+N'importe qui peut le rejoindre en utilisant son adresse `@mines-paristech.fr` à l'inscription (sinon, l'inscription est refusée). Si vous n'avez pas d'adresse `@mines-paristech.fr`, envoyez moi un mail et je vous envoie un lien d'invit (12chacha je pense à toi)
 
 ### Prérequis
 
-Tout ce qui est expliqué ici nécessite un système UNIX (Linux ou Mac). Depuis Windows 10, il y a la possibilité d'avoir un terminal bash ([TUTO](https://korben.info/installer-shell-bash-linux-windows-10.html)), ce qui devrait faire l'affaire. Pour les Windows 8 et antérieurs, ben déso, installez Linux. Il est préferrable de savoir naviguer un minimum dans le Terminal.
+D'abord, une connexion Internet.
+
+Pour l'instant, tout repose sur des commandes dans un Terminal, ce qui nécessite un système UNIX (Linux ou Mac). Depuis Windows 10, il y a la possibilité d'avoir un terminal bash ([TUTO](https://korben.info/installer-shell-bash-linux-windows-10.html)), ce qui devrait faire l'affaire. Pour les Windows 8 et antérieurs, ben déso, installez Linux. Il est préferrable de savoir naviguer un minimum dans le Terminal.
+
+On a l'intention de faire une interface web pour simplifier l'utilisation, stay tuned.
 
 Il faut comprendre un minimum le principe d'une blockchain et d'Ethereum pour comprendre les opérations "bas niveau" qu'on détaille ici. Un très bon cours en ligne gratuit peut être trouvé ici :
 
@@ -46,4 +50,5 @@ Il faut comprendre un minimum le principe d'une blockchain et d'Ethereum pour co
 
 ## HELP
 
-Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)
+Si tu as des questions, ou besoin d'aide, ca se passe sur le [Slack](http://minecoin.slack.com)
+

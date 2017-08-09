@@ -88,4 +88,5 @@ La fonction renvoie 5 x 10^18 car le résultat est exprimé en Wei, une sous uni
 
 ## HELP
 
-Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@outlook.com`](mailto:baptiste.colin@outlook.com)
+Si tu as des questions, ou besoin d'aide, ca se passe sur le [Slack](http://minecoin.slack.com)
+

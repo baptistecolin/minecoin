@@ -31,4 +31,5 @@ Vous pouvez lire la procédure d'installation "en détail" sur [`/docs/install.m
 
 ## HELP
 
-Si t'y comprends rien tu peux m'appeler au secours : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)
+Si tu as des questions, ou besoin d'aide, ca se passe sur le [Slack](http://minecoin.slack.com)
+

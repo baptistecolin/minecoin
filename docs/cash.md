@@ -22,3 +22,8 @@ C'est à vous d'assumer vos responsabilités si vous vous faites pigeonner vos e
 Un prix d'échange n'est qu'une statistique, rien ne vous interdit de faire des échanges au dessus ou en dessous. Tout dépend de votre désir d'acheter/vendre des MineCoin. La valeur est une construction sociale, le taux de change n'est qu'une mesure physique de ce phénomène sociale.
 
 Un peu de philosophie sur le sujet : [Conférence de Fédéric Lordon sur la valeur économique](https://www.youtube.com/watch?v=kX6cCKStbF0)
+
+## HELP
+
+Si tu as des questions, ou besoin d'aide, ca se passe sur le [Slack](http://minecoin.slack.com)
+

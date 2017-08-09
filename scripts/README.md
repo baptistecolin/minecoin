@@ -18,4 +18,5 @@ NB : ces scripts sont loin d'être exhaustifs, Geth permet de faire beaucoup de 
 
 # HELP
 
-Si t'y comprends rien tu peux m'appeler à l'aide : [`baptiste.colin@mines-paristech.fr`](mailto:baptiste.colin@mines-paristech.fr)
+Si tu as des questions, ou besoin d'aide, ca se passe sur le [Slack](http://minecoin.slack.com)
+
